@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: suporte_01
+Destino: processado\suporte
+
+CLASSIFICACAO (ML)
+Categoria: suporte
+Confianca: 0.979
+Distribuicao de probabilidades:
+  suporte: 0.979
+  financeiro: 0.008
+  auditoria: 0.007
+  comercial: 0.006
+
+Origem da decisao: regras
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: None
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=ENCAMINHAR_SUPORTE prioridade=MEDIA motivo=Suporte identificado com confiança adequada
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+ola, preciso de ajuda. estou com erro ao acessar o sistema de autenticacao, com token invalido. a falha no login ocorre porque a senha nao e aceita. o aplicativo esta travando ao gerar o backup da base de dados e aparece a mensagem de erro 500 quando tento emitir relatorio.

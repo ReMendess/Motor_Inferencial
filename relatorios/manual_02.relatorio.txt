@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: manual_02
+Destino: processado\manual
+
+CLASSIFICACAO (ML)
+Categoria: comercial
+Confianca: 0.331
+Distribuicao de probabilidades:
+  comercial: 0.331
+  suporte: 0.284
+  auditoria: 0.206
+  financeiro: 0.179
+
+Origem da decisao: regra_manual
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: None
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=REVISAR_MANUAL prioridade=ALTA motivo=Modelo inseguro (confianca=0.33, margem=0.05); limiares confianca>=0.55 e margem>=0.15
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+bom dia. gostaria de solicitar minhas ferias e informar meu novo endereco para o time de recursos humanos. tambem quero atualizar meus dados no sistema de ponto e confirmar o horario do treinamento de integracao. obrigado.

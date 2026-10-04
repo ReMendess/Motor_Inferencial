@@ -1,0 +1,6 @@
+Bom dia, equipe de suporte.
+
+O sistema não responde e apresenta timeout na tela inicial. Há instabilidade
+no servidor e falha de conexão com o banco. A impressora de rede não é
+reconhecida. Também preciso de suporte técnico para configurar a integração
+da API com o ERP, que está retornando status inválido.

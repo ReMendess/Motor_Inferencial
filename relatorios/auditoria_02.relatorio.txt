@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: auditoria_02
+Destino: processado\auditoria
+
+CLASSIFICACAO (ML)
+Categoria: auditoria
+Confianca: 0.984
+Distribuicao de probabilidades:
+  auditoria: 0.984
+  suporte: 0.005
+  comercial: 0.005
+  financeiro: 0.005
+
+Origem da decisao: regras
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: None
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=ENCAMINHAR_AUDITORIA prioridade=ALTA motivo=Auditoria identificada com confiança adequada
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+prezados, precisamos de uma auditoria de compliance e adequacao as normas regulatorias. a revisao das notas fiscais apontou irregularidades contabeis e questoes de conformidade com a lgpd nos processos internos. tambem solicitamos um processo de due diligence e analise de riscos de fornecedores, alem do controle de acessos e trilha de auditoria.

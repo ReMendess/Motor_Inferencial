@@ -1,0 +1,6 @@
+Olá, preciso de ajuda.
+
+Estou com erro ao acessar o sistema de autenticação, com token inválido.
+A falha no login ocorre porque a senha não é aceita. O aplicativo está
+travando ao gerar o backup da base de dados e aparece a mensagem de erro 500
+quando tento emitir relatório.

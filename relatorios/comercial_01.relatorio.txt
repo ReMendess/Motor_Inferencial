@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: comercial_01
+Destino: processado\comercial
+
+CLASSIFICACAO (ML)
+Categoria: comercial
+Confianca: 0.976
+Distribuicao de probabilidades:
+  comercial: 0.976
+  auditoria: 0.009
+  suporte: 0.008
+  financeiro: 0.007
+
+Origem da decisao: regras
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: None
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=ENCAMINHAR_COMERCIAL prioridade=MEDIA motivo=Comercial identificado com confiança adequada
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+bom dia. somos a empresa alfa solucoes e temos interesse em adquirir o plano empresarial para os proximos 12 meses. gostaria de solicitar um orcamento para 50 licencas do sistema, com proposta comercial e tabela de precos atualizada. tambem queremos negociar desconto na renovacao e conhecer as condicoes de pagamento e prazos de entrega. atenciosamente, departamento de compras

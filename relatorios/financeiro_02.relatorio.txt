@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: financeiro_02
+Destino: processado\financeiro
+
+CLASSIFICACAO (ML)
+Categoria: financeiro
+Confianca: 0.985
+Distribuicao de probabilidades:
+  financeiro: 0.985
+  suporte: 0.006
+  comercial: 0.005
+  auditoria: 0.004
+
+Origem da decisao: regras
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: 1250.0
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=PROCESSAR prioridade=MEDIA motivo=Financeiro identificado com confiança adequada
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+boa tarde. houve um erro na cobranca automatica do cartao de credito e o pagamento nao foi identificado no sistema. solicito reembolso e estorno do valor duplicado, alem do extrato de pagamentos e dos boletos em aberto. preciso tambem alterar a data de vencimento do boleto de cobranca. valor total: r$ 1.250,00

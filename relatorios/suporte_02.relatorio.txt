@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: suporte_02
+Destino: processado\suporte
+
+CLASSIFICACAO (ML)
+Categoria: suporte
+Confianca: 0.981
+Distribuicao de probabilidades:
+  suporte: 0.981
+  financeiro: 0.007
+  auditoria: 0.006
+  comercial: 0.006
+
+Origem da decisao: regras
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: None
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=ENCAMINHAR_SUPORTE prioridade=MEDIA motivo=Suporte identificado com confiança adequada
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+bom dia, equipe de suporte. o sistema nao responde e apresenta timeout na tela inicial. ha instabilidade no servidor e falha de conexao com o banco. a impressora de rede nao e reconhecida. tambem preciso de suporte tecnico para configurar a integracao da api com o erp, que esta retornando status invalido.

@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: manual_01
+Destino: processado\manual
+
+CLASSIFICACAO (ML)
+Categoria: suporte
+Confianca: 0.349
+Distribuicao de probabilidades:
+  suporte: 0.349
+  financeiro: 0.336
+  auditoria: 0.201
+  comercial: 0.114
+
+Origem da decisao: regra_manual
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: None
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=REVISAR_MANUAL prioridade=ALTA motivo=Modelo inseguro (confianca=0.35, margem=0.01); limiares confianca>=0.55 e margem>=0.15
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+preciso de ajuda com varias coisas de uma vez. quero comprar licencas e ao mesmo tempo pedir a segunda via do boleto, corrigir um erro no login e tambem verificar se houve fraude nos lancamentos contabeis. e urgente e nao sei bem em qual area isso se encaixa.

@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: comercial_02
+Destino: processado\comercial
+
+CLASSIFICACAO (ML)
+Categoria: comercial
+Confianca: 0.989
+Distribuicao de probabilidades:
+  comercial: 0.989
+  financeiro: 0.004
+  auditoria: 0.004
+  suporte: 0.004
+
+Origem da decisao: regras
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: None
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=ENCAMINHAR_COMERCIAL prioridade=MEDIA motivo=Comercial identificado com confiança adequada
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+ola, tudo bem? recebi o contato do vendedor e gostaria de solicitar uma cotacao para contratacao de servicos de consultoria. pretendemos fechar contrato de prestacao de servicos e queremos fazer um upgrade do nosso plano atual. poderia enviar a proposta comercial e os valores para aquisicao de equipamentos? existe interesse em uma parceria comercial para revenda.

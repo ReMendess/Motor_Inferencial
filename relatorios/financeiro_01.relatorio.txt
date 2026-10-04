@@ -1,0 +1,26 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: financeiro_01
+Destino: processado\financeiro
+
+CLASSIFICACAO (ML)
+Categoria: financeiro
+Confianca: 0.960
+Distribuicao de probabilidades:
+  financeiro: 0.960
+  comercial: 0.020
+  auditoria: 0.011
+  suporte: 0.010
+
+Origem da decisao: regras
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: 3480.0
+Data: 10/02/2026
+CNPJ: 12.345.678/0001-90
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=PROCESSAR prioridade=MEDIA motivo=Financeiro identificado com confiança adequada
+- acao=PROCESSAR prioridade=MEDIA motivo=Financeiro com valor moderado e confiança adequada
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+prezados, solicito a segunda via do boleto referente a fatura do mes de janeiro. identifiquei uma divergencia no valor cobrado na fatura e gostaria de solicitar a correcao da cobranca indevida. valor informado: r$ 3.480,00 vencimento: 10/02/2026 cnpj do cliente: 12.345.678/0001-90 segue em anexo o comprovante de pagamento anterior.

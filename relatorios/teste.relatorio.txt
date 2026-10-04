@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: teste
+Destino: processado\auditoria
+
+CLASSIFICACAO (ML)
+Categoria: auditoria
+Confianca: 0.843
+Distribuicao de probabilidades:
+  auditoria: 0.843
+  suporte: 0.054
+  financeiro: 0.053
+  comercial: 0.050
+
+Origem da decisao: regras
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: None
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=ENCAMINHAR_AUDITORIA prioridade=ALTA motivo=Auditoria identificada com confiança adequada
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+solicito auditoria interna nos lancamentos contabeis do trimestre, com indicios de fraude

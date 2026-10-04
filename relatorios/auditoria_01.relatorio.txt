@@ -1,0 +1,25 @@
+RELATORIO DO MOTOR DE INFERENCIA
+Arquivo: auditoria_01
+Destino: processado\auditoria
+
+CLASSIFICACAO (ML)
+Categoria: auditoria
+Confianca: 0.981
+Distribuicao de probabilidades:
+  auditoria: 0.981
+  comercial: 0.007
+  financeiro: 0.007
+  suporte: 0.006
+
+Origem da decisao: regras
+
+EVIDENCIAS EXTRAIDAS (regex/OCR)
+Valor total: None
+Data: None
+CNPJ: None
+
+DECISOES INFERIDAS (MOTOR DE REGRAS)
+- acao=ENCAMINHAR_AUDITORIA prioridade=ALTA motivo=Auditoria identificada com confiança adequada
+
+TRECHO DO TEXTO PROCESSADO (AMOSTRA)
+a equipe de auditoria, solicito auditoria interna nos lancamentos contabeis do ultimo trimestre. foram identificados indicios de inconsistencias nos registros de despesas e possivel desvio de recursos. e necessario fazer o levantamento de evidencias para auditoria das contas a pagar, testar os controles internos e apurar as divergencias no balanco patrimonial.
